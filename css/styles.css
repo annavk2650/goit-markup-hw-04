@@ -223,7 +223,6 @@ button {
 }
 .box-icon {
   display: flex;
-  width: 270px;
   height: 120px;
   background-color: var(--second-background-color);
   border-radius: 4px;
@@ -328,6 +327,11 @@ button {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
+.social-links:focus,
+.social-links:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
 .description-team {
   padding-top: 30px;
   margin-bottom: 16px;
@@ -395,6 +399,7 @@ button {
   background-color: var(--primary-white-color);
   color: var(--accent-color);
   border-color: var(--accent-color);
+  outline-color: transparent;
 }
 /*--------------- FOOTER -------------*/
 .footer {
@@ -476,6 +481,7 @@ button {
   height: 100%;
   border-radius: 50%;
   color: #afb1b8;
+  background: rgba(255, 255, 255, 0.1);
 }
 .footer-link {
   width: 20px;
@@ -530,8 +536,12 @@ button {
 .operation-list {
   flex-basis: calc((100% - 2 * 30px) / 3);
 }
-.operation-list:hover,
+/* .operation-list:hover,
 .operation-list:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+} */
+.operation-list:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
