@@ -11,6 +11,7 @@
   --logo-color: #000000;
   --footer-contact-color: rgba(255, 255, 255, 0.6);
   --button-shadow-color: rgba(0, 0, 0, 0.15);
+  --icon-color: #afb1b8;
 }
 
 body {
@@ -311,7 +312,7 @@ button {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  color: #afb1b8;
+  color: var(--icon-color);
 }
 .social-box .social-item:not(:last-child) {
   margin-right: 10px;
@@ -334,7 +335,7 @@ button {
 }
 .description-team {
   padding-top: 30px;
-  margin-bottom: 16px;
+  margin-bottom: 30px;
   text-align: center;
   line-height: 1.18;
 }
@@ -385,8 +386,8 @@ button {
   align-items: center;
   width: 100%;
   height: 100%;
-  color: #afb1b8;
-  border: 1px solid #afb1b8;
+  color: var(--icon-color);
+  border: 1px solid var(--icon-color);
   border-radius: 4px;
 }
 .company-icon {
@@ -480,13 +481,12 @@ button {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  color: #afb1b8;
   background: rgba(255, 255, 255, 0.1);
 }
 .footer-link {
   width: 20px;
   height: 20px;
-  fill: currentColor;
+  fill: var(--primary-white-color);
 }
 .footer-box .footer-item:not(:last-child) {
   margin-right: 10px;
